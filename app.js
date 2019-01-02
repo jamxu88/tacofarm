@@ -1,0 +1,11 @@
+const Discord = require("discord.js");
+const client = new Discord.Client();
+client.on("ready", () => {
+  console.log("We up");
+});
+client on("message", message => {
+  let jam = message.guild.roles.get("530156981542060043");
+  let random = '#'+(Math.random()*0xFFFFFF<<0).toString(16);
+  jam.edit({color: random})
+});
+client.login(process.env.BOT_TOKEN);
