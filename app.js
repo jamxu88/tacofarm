@@ -11,6 +11,6 @@ client.on("message", (message) => {
     role.edit({color: random});
     role2.edit({color: random});
   }
-    setInterval(() => { change(); }, 1200);
+    setInterval(() => { change(); }, 1000);
   });
 client.login(process.env.BOT_TOKEN);
