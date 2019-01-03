@@ -9,6 +9,6 @@ client.on("message", (message) => {
     let random = '#'+(Math.random()*0xFFFFFF<<0).toString(16);
     jam.edit({color: random});
   }
-    setInterval(() => { change(); }, 2000);
+    setInterval(() => { change(); }, 1200);
   });
 client.login(process.env.BOT_TOKEN);
