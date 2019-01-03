@@ -10,6 +10,5 @@ client.on("message", message => {
     jam.edit({color: random});
   }
   setInterval(() => { change(); }, 2000);
-  }
 });
 client.login(process.env.BOT_TOKEN);
