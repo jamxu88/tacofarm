@@ -12,7 +12,7 @@ client.on("message", (message) => {
     role2.edit({color: random});
   }
   if (message.content.startsWith("<<<530165753811304449")) {
-    setInterval(() => { change(516390102650454041); }, 1000);
+    setInterval(() => { change("516390102650454041"); }, 1000);
   }else
   if (message.content.includes("rainbow")) {
     message.channel.send("no");
