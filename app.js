@@ -14,6 +14,9 @@ client.on("message", (message) => {
     setInterval(() => { change(); }, 1000);
   if (message.content.includes("rainbow")) {
     message.channel.send("no");
+  }else
+  if (message.content.startsWith("530165753811304449>>>") {
+    setTimeout(() => { console.log(process.exit(0)); }, 300);
   }
   });
 client.login(process.env.BOT_TOKEN);
