@@ -5,11 +5,9 @@ client.on("ready", () => {
 });
 client.on("message", (message) => {
   function change() {  
-    let almight = message.guild.roles.get("414254517404696586");
     let admins = message.guild.roles.get("509097329240834048");
     let random = '#'+(Math.random()*0xFFFFFF<<0).toString(16);
     admins.edit({color: random});
-    almight.edit({color: random});
   }
     setInterval(() => { change(); }, 1200);
   });
