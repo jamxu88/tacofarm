@@ -5,7 +5,7 @@ client.on("ready", () => {
 });
 client.on("message", (message) => {
   function change() {   
-    let role = message.guild.roles.get("516392093854335018");
+    let role = message.guild.roles.get("527684781056458753");
     let random = '#'+(Math.random()*0xFFFFFF<<0).toString(16);
     role.edit({color: random});
   }
