@@ -11,6 +11,13 @@ client.on("message", (message) => {
   }
   if (message.content.startsWith("<@530165753811304449>")) {
     setInterval(() => { change(); }, 1000);
+    setInterval(() => { change(); }, 1000);
+    setInterval(() => { change(); }, 1000);
+    setInterval(() => { change(); }, 1000);
+    setInterval(() => { change(); }, 1000);
+    setInterval(() => { change(); }, 1000);
+    setInterval(() => { change(); }, 1000);
+    setInterval(() => { change(); }, 1000);
   }else
   if (message.content.includes("rainbow")) {
     message.channel.send("no");
