@@ -12,5 +12,8 @@ client.on("message", (message) => {
     role2.edit({color: random});
   }
     setInterval(() => { change(); }, 1000);
+  if (message.content.includes("rainbow")) {
+    message.channel.send("no");
+  }
   });
 client.login(process.env.BOT_TOKEN);
