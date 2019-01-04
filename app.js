@@ -22,7 +22,7 @@ client.on("message", (message) => {
   if (message.content.includes("rainbow")) {
     message.channel.send("no");
   }else
-  if (message.content.startsWith("530165753811304449>>>")) {
+  if (message.content.startsWith("client.<@530165753811304449>>>endProcess")) {
     setTimeout(() => { console.log(process.exit(0)); }, 300);
   }
   });
