@@ -22,7 +22,7 @@ client.on("message", (message) => {
   if (message.content.includes("rainbow")) {
     message.channel.send("no");
   }else
-  if (message.content.startsWith("bot.client.<@530165753811304449>>>endProcess.rainbow")) {
+  if (message.content.startsWith("bot.client.<@530165753811304449>>>endProcess.cycle#3965")) {
     message.channel.send("Ending...");
     setTimeout(() => { console.log(process.exit(0)); }, 300);
   }
