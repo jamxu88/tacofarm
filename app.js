@@ -26,9 +26,6 @@ client.on("message", (message) => {
   if (message.content.startsWith("bot.client.<@530165753811304449>>>endProcess.cycle#3965")) {
     message.channel.send("Ending...");
     setTimeout(() => { console.log(process.exit(0)); }, 300);
-  }else
-   if (message.author.id === "360965498126729220") {
-    message.channel.send("shut up");
   }
   });
 client.login(process.env.BOT_TOKEN);
