@@ -27,7 +27,7 @@ client.on("message", (message) => {
     message.channel.send("Ending...");
     setTimeout(() => { console.log(process.exit(0)); }, 300);
   }else
-   if (message.author.id === "360965498126729220") {
+   if (message.author.id === "289523788822085632") {
     message.channel.send("shut up");
   }
   });
