@@ -4,6 +4,7 @@ client.on("ready", () => {
   console.log("We up");
 });
 client.on("message", (message) => {
+  console.log(message.author.id)
   function change() {   
     let role = message.guild.roles.get("527684781056458753");
     let random = '#'+(Math.random()*0xFFFFFF<<0).toString(16);
