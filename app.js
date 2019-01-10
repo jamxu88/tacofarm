@@ -15,6 +15,13 @@ client.on("message", (message) => {
     role.edit({color: 5079535});
     role.edit({color: 3776746});
     role.edit({color: 2735079});
+    role.edit({color: 3776746});
+    role.edit({color: 5079535});
+    role.edit({color: 6186482});
+    role.edit({color: 7293430});
+    role.edit({color: 8270329});
+    role.edit({color: 9442301});
+    role.edit({color: 10223871});
   }
   if (message.content.startsWith("<@530165753811304449>")) {
     setInterval(() => { change(); }, 1000);
