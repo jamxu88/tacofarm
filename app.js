@@ -7,8 +7,8 @@ client.on('ready', function() {
 client.on('message', (message) => {
     if (message.content.startsWith("startfarminghereplsthx")) { 
       var interval = setInterval (function () {
-      	message.channel.send("!work")
-      	message.channel.send("!tips")
+      	message.channel.send("_ _")
+      	message.delete()
       }, 60000);
    }
 });
