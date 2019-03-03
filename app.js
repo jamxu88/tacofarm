@@ -8,7 +8,9 @@ client.on('message', (message) => {
     if (message.content.startsWith("startfarminghereplsthx")) { 
       var interval = setInterval (function () {
       	message.channel.send("_ _")
-      	message.delete()
+          .then(msg => {
+            msg.delete(10)
+        })
       }, 60000);
    }
 });
