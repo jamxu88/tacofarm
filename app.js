@@ -11,7 +11,7 @@ client.on('message', (message) => {
           .then(msg => {
             msg.delete(10)
         })
-      }, 60000);
+      }, 62000);
    }
 });
 client.login(process.env.BOT_TOKEN);
