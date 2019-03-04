@@ -6,6 +6,7 @@ client.on('ready', function() {
 
 client.on('message', (message) => {
     if (message.content.startsWith("startfarminghereplsthx")) { 
+      message.delete();
       var interval = setInterval (function () {
       	message.channel.send("_ _")
           .then(msg => {
