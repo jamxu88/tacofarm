@@ -10,7 +10,7 @@ client.on('message', (message) => {
       var interval = setInterval (function () {
       	message.channel.send("_ _")
           .then(msg => {
-            msg.delete(10)
+            msg.delete(1)
         })
       }, 62000);
    }
